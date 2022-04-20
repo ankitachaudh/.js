@@ -1,0 +1,33 @@
+<html>
+<body>
+<script type="text/javascript">
+function test()
+{
+  document.bgColor="red";
+}
+function test1()
+{
+  document.bgColor="blue";
+}
+function test2()
+{
+  document.bgColor="green";
+}
+function test3()
+{
+  document.bgColor="pink";
+}
+function test4()
+{
+  alert("on blur event is generate ");
+}
+</script>
+<body>
+<form name ="f1">
+<input type="button" value="click me" onclick="test()">
+<input type="button" value="mouse Over" onMouseOver="test1()">
+<input type="button" value="mouse Out" onMouseOut="test2()">
+<input type="text" value="mouse Move" onMouseMove="test3()">
+</form>
+</body>
+</html>
